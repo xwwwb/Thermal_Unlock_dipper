@@ -10,11 +10,11 @@ If you want to revert back to original thermal profile, disable or delete the sc
 ## Included
 
 * Empty decoy file to disable thermal control
-* [magisk-module-installer 17000](https://github.com/topjohnwu/magisk-module-installer)
+* [magisk-module-installer 18100](https://github.com/topjohnwu/magisk-module-installer)
 
 ## Requirement
 
-* Magisk v17 or higher installed on your phone
+* Magisk v18.1 or higher installed on your phone
 * Read the disclaimer before install
 
 ## Disclaimer
