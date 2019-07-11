@@ -1,6 +1,6 @@
-id=template
-name=Template Module
-version=v1
+id=Thermal_Unlock_PocoF1
+name=Poco F1 Thermal Unlock
+version=1.0
 versionCode=1
-author=topjohnwu
-description=A short description
+author=max20091
+description=Unleash maximum SD845 performance on Poco F1.
