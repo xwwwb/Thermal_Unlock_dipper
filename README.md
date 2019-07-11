@@ -1,5 +1,5 @@
 # Poco F1 Magisk Thermal Unlock
-This simple script will replace normal thermal profile decoy file which always run at maximum performance when battery is >=20%.
+This simple script will replace normal thermal profile with decoy file which always run at maximum performance when battery is >=20%.
 
 Provide much better FPS but may heat up quicker and use more battery.
 
