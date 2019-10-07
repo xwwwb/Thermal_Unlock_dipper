@@ -126,8 +126,10 @@ print_modname() {
   ui_print "     Poco F1 Thermal Unlock     "
   ui_print "********************************"
   if [ -f $VEN/build.prop ]; then BUILDS="/system/build.prop $VEN/build.prop"; else BUILDS="/system/build.prop"; fi
-  POCO=$(grep -E "ro.product.name=beryllium" "$BUILDS")
+    POCO=$(grep -E "ro.product.device=beryllium" "$BUILDS")
   if [ -n "$POCO" ]; then
+    break
+  else
     ui_print "This device is not POCO F1!"
     ui_print "Exiting..."
     abort
