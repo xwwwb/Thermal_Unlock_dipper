@@ -125,15 +125,7 @@ print_modname() {
   ui_print "********************************"
   ui_print "    Xiaomi Mi8 Thermal Unlock   "
   ui_print "********************************"
-  if [ -f $VEN/build.prop ]; then BUILDS="/system/build.prop $VEN/build.prop"; else BUILDS="/system/build.prop"; fi
-    POCO=$(grep -E "ro.product.device=dipper" "$BUILDS")
-  if [ -n "$POCO" ]; then
-    break
-  else
-    ui_print "This device is not Mi 8!"
-    ui_print "Exiting..."
-    abort
-  fi
+  ui_print "请确定您的设备是小米8标准版。"
 }
 
 # Copy/extract your module files into $MODPATH in on_install.
