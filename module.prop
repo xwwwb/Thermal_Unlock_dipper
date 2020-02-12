@@ -1,6 +1,6 @@
-id=Thermal_Unlock_PocoF1
-name=Poco F1 Thermal Unlock
-version=1.1
+id=Thermal_Unlock_Dipper
+name=Dipper Thermal Unlock
+version=1.2
 versionCode=1
 author=max20091
-description=Unleash maximum SD845 performance on Poco F1.
+description=Unleash maximum SD845 performance on Dipper.
